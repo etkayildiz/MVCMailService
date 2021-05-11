@@ -31,5 +31,10 @@ namespace MVCMailService_0.Controllers
             ViewBag.Message = "Mail başarılı şekilde gönderilmiştir";
             return View();
         }
+
+        public ActionResult Contact()
+        {
+            return View();
+        }
     }
 }
